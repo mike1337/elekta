@@ -35,6 +35,9 @@
   },
   "keywords": [],
   "dependencies": {
-    "hapi": "^8.4.0"
+    "good": "^6.1.2",
+    "good-winston": "^1.0.0",
+    "hapi": "^8.4.0",
+    "winston": "^1.0.0"
   }
 }

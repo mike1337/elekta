@@ -1,0 +1,20 @@
+{
+  "name": "elekta",
+  "version": "0.0.0",
+  "homepage": "https://github.com/mike1337/elekta",
+  "authors": [
+    "Lu",
+    "Mike <mike.lu@elekta.com>"
+  ],
+  "keywords": [
+    "node"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
