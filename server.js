@@ -45,6 +45,17 @@ server.route({
 });
 
 server.route({
+  method : "GET",
+  path : '/{param*}',
+  handler : {
+    directory : {
+      path : '/public',
+  listing : true
+    }
+  }
+});
+
+server.route({
     method: 'GET',
     path: '/{name}',
     handler: function (request, reply) {
